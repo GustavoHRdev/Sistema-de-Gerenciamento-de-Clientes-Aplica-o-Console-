@@ -1,7 +1,6 @@
 # 📋 Client Registration System (Java)
 
-A simple console-based client management system built with Java.  
-This project allows users to register, list, and remove clients using an interactive menu.
+A simple console-based client management system built with Java, designed to practice core Object-Oriented Programming concepts and collection handling.
 
 ---
 
@@ -30,7 +29,45 @@ src/
 └── Cliente.java
 
 ---
+## 📋 Requirements
 
+- Java 17 or higher installed
+- Git (optional, for cloning the repository)
+---
+▶️ How to Run the Project Locally
+
+✅ 1. Clone the repository
+```bash
+git clone https://github.com/SEU_USUARIO/client-registration-system.git
+```
+
+✅ 2. Navigate to the project folder
+```bash
+cd client-registration-system
+```
+
+✅ 3. Compile the project
+```bash
+javac src/*.java
+```
+
+✅ 4. Run the application
+```bash
+java -cp src Main
+```
+
+💡 Alternative: Run with IntelliJ IDEA
+
+Open IntelliJ IDEA
+
+Click on Open
+
+Select the project folder
+
+Open Main.java
+
+Click the green Run ▶️ button
+-- 
 ## 📌 How It Works
 
 The system runs in a loop until the user selects the exit option.
@@ -76,17 +113,8 @@ Name successfully registered!
 - Add update client feature
 - Create a graphical interface (JavaFX or Spring Boot REST API)
 - Convert to Maven project
-
 ---
 
-## 👨‍💻 Author
-
-**Gustavo Ribeiro**  
-Backend Developer (Java Focused)
-
----
-
-⭐ Feel free to fork this repository and improve the project!
 
 # 🇧🇷 Versão em Português
 
@@ -113,7 +141,24 @@ O projeto permite cadastrar, listar e remover clientes por meio de um menu inter
 - IntelliJ IDEA
 
 ---
-
+▶️ Como Rodar o Projeto Localmente
+✅ 1. Clone o repositório
+```bash
+git clone https://github.com/SEU_USUARIO/client-registration-system.git
+```
+✅ 2. Acesse a pasta do projeto
+```bash
+cd client-registration-system
+```
+✅ 3. Compile os arquivos
+```bash
+javac src/*.java
+```
+✅ 4. Execute o programa
+```bash
+java -cp src Main
+```
+--
 ### 📌 Como Funciona
 
 O sistema executa em loop até que o usuário selecione a opção de saída.
@@ -145,7 +190,3 @@ Cada cliente recebe um ID automático no momento do cadastro.
 
 **Gustavo Ribeiro**  
 Backend Developer (Java Focused)
-
----
-
-⭐ Sinta-se à vontade para contribuir ou melhorar este projeto!
