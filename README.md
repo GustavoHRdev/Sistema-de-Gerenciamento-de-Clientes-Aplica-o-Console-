@@ -142,6 +142,7 @@ O projeto permite cadastrar, listar e remover clientes por meio de um menu inter
 
 ---
 ▶️ Como Rodar o Projeto Localmente
+
 ✅ 1. Clone o repositório
 ```bash
 git clone https://github.com/SEU_USUARIO/client-registration-system.git
