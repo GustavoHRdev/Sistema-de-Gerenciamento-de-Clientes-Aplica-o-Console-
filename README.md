@@ -4,85 +4,79 @@ A simple console-based client management system built with Java, designed to pra
 
 ---
 
-## 🖼 Screenshots
+## 🖼 Screenshot
 
-### Main Menu
 ![Main Menu](./assets/images/projeto-menu.png)
-
-### Alternative with controlled size
-<img src="./assets/images/projeto-menu.png" alt="Main Menu" width="750" />
 
 ---
 
 ## 🚀 Features
 
-- Register new clients with auto-incremented ID
-- List all registered clients
-- Remove a client by ID
-- Input validation (empty name handling)
-- Simple and clean console interface
+* Register new clients with auto-incremented ID
+* List all registered clients
+* Remove a client by ID
+* Input validation (empty name handling)
+* Simple and clean console interface
 
 ---
 
 ## 🛠 Technologies Used
 
-- Java 17 (LTS)
-- ArrayList
-- Object-Oriented Programming (OOP)
-- IntelliJ IDEA
+* Java 17 (LTS)
+* ArrayList
+* Object-Oriented Programming (OOP)
+* IntelliJ IDEA
 
 ---
 
 ## 📂 Project Structure
 
-```text
-assets/
-└── images/
-    └── projeto-menu.png
-Main.java/
-└── src/
-    ├── Main.java
-    └── Cliente.java
+```
+client-registration-system/
+├── assets/
+│   └── images/
+│       └── projeto-menu.png
+├── src/
+│   ├── Main.java
+│   └── Cliente.java
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## 📋 Requirements
 
-- Java 17 or higher installed
-- Git (optional, for cloning the repository)
+* Java 17 or higher installed
+* Git (optional)
 
 ---
 
 ## ▶️ How to Run the Project Locally
 
-✅ 1. Clone the repository
+### 1️⃣ Clone the repository
+
 ```bash
-git clone https://github.com/SEU_USUARIO/client-registration-system.git
+git clone https://github.com/GustavoHRdev/Sistema-de-Gerenciamento-de-Clientes-Aplica-o-Console-.git
 ```
 
-✅ 2. Navigate to the project folder
+### 2️⃣ Navigate to the project folder
+
 ```bash
-cd client-registration-system/Main.java
+cd Sistema-de-Gerenciamento-de-Clientes-Aplica-o-Console-
 ```
 
-✅ 3. Compile the project
+### 3️⃣ Compile the project
+
 ```bash
 javac src/*.java
 ```
 
-✅ 4. Run the application
+### 4️⃣ Run the application
+
 ```bash
 java -cp src Main
 ```
-
-💡 Alternative: Run with IntelliJ IDEA
-
-- Open IntelliJ IDEA
-- Click on Open
-- Select the project folder
-- Open `src/Main.java`
-- Click the green Run `▶️` button
 
 ---
 
@@ -92,9 +86,9 @@ The system runs in a loop until the user selects the exit option.
 
 ### Menu Options
 
-1 - Register name  
-2 - List names  
-3 - Remove name  
+1 - Register name
+2 - List names
+3 - Remove name
 4 - Exit
 
 Each client receives an auto-generated ID when registered.
@@ -103,7 +97,7 @@ Each client receives an auto-generated ID when registered.
 
 ## 💻 Example Usage
 
-```text
+```
 1 - Register name
 2 - List names
 3 - Remove name
@@ -117,111 +111,27 @@ Name successfully registered!
 
 ## 🧠 Concepts Practiced
 
-- Collections (ArrayList)
-- Encapsulation
-- Loops (`while`)
-- Conditional logic (`if/else`)
-- Object instantiation
-- Scanner for user input
-- Method overriding (`toString`)
+* Collections (ArrayList)
+* Encapsulation
+* Loops (`while`)
+* Conditional logic (`if/else`)
+* Object instantiation
+* Scanner for user input
+* Method overriding (`toString`)
 
 ---
 
 ## 📈 Possible Improvements
 
-- Persist data to a file or database
-- Implement search functionality
-- Add update client feature
-- Create a graphical interface (JavaFX or Spring Boot REST API)
-- Convert to Maven project
-
----
-
-# 🇧🇷 Versão em Português
-
-Um sistema simples de gerenciamento de clientes via console, desenvolvido em Java.  
-O projeto permite cadastrar, listar e remover clientes por meio de um menu interativo.
-
----
-
-## 🖼 Captura de Tela
-
-### Menu Principal
-![Menu Principal](./assets/images/projeto-menu.png)
-
----
-
-### 🚀 Funcionalidades
-
-- Cadastro de clientes com ID auto-incrementado
-- Listagem de todos os clientes cadastrados
-- Remoção de cliente pelo ID
-- Validação de entrada (nome vazio)
-- Interface simples via terminal
-
----
-
-### 🛠 Tecnologias Utilizadas
-
-- Java 17 (LTS)
-- ArrayList
-- Programação Orientada a Objetos (POO)
-- IntelliJ IDEA
-
----
-
-## ▶️ Como Rodar o Projeto Localmente
-
-✅ 1. Clone o repositório
-```bash
-git clone https://github.com/SEU_USUARIO/client-registration-system.git
-```
-
-✅ 2. Acesse a pasta do projeto
-```bash
-cd client-registration-system/Main.java
-```
-
-✅ 3. Compile os arquivos
-```bash
-javac src/*.java
-```
-
-✅ 4. Execute o programa
-```bash
-java -cp src Main
-```
-
----
-
-### 📌 Como Funciona
-
-O sistema executa em loop até que o usuário selecione a opção de saída.
-
-Opções do menu:
-
-1 - Cadastrar nome  
-2 - Listar nomes  
-3 - Remover nome  
-4 - Sair
-
-Cada cliente recebe um ID automático no momento do cadastro.
-
----
-
-### 🧠 Conceitos Praticados
-
-- Collections (ArrayList)
-- Encapsulamento
-- Estruturas de repetição (`while`)
-- Estruturas condicionais (`if/else`)
-- Instanciação de objetos
-- Uso da classe `Scanner`
-- Sobrescrita do método `toString()`
+* Persist data to a file or database
+* Implement search functionality
+* Add update client feature
+* Convert to Maven project
+* Transform into a Spring Boot REST API
 
 ---
 
 ## 👨‍💻 Author
 
-**Gustavo Ribeiro**  
+**Gustavo Ribeiro**
 Backend Developer (Java Focused)
